@@ -1,35 +1,49 @@
-# Byte-compiled / optimized / DLL files
+# === Python cache & compiled files ===
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# === Virtual environments ===
 .venv/
 env/
 venv/
 ENV/
 .env/
 
-# IDE / Editor
+# === Environment variables ===
+*.env
+
+# === IDE / Editor ===
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated
+# === OS generated files ===
 .DS_Store
 Thumbs.db
 
-# Python specific
+# === ML / Data Science artifacts ===
 *.pkl
-*.sqlite3
+*.joblib
+*.h5
+*.onnx
 
-# Logs
+# === Datasets ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# === Logs & temp ===
 *.log
+*.pid
+*.tmp
 
-# Jupyter Notebook checkpoints
+# === Jupyter Notebook checkpoints ===
 .ipynb_checkpoints/
 
-# VSCode config
-.vscode/
-
-# Uvicorn / FastAPI reload cache
-*.pid
+# === FastAPI/Uvicorn reload cache ===
+*.db
