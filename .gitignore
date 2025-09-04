@@ -12,6 +12,9 @@ ENV/
 
 # === Environment variables ===
 *.env
+*.ini
+*.toml
+*.cfg
 
 # === IDE / Editor ===
 .vscode/
@@ -23,28 +26,65 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# === Logs & temp ===
+*.log
+*.pid
+*.tmp
+*.bak
+
+# === Jupyter Notebook ===
+*.ipynb
+.ipynb_checkpoints/
+.jupyter/
+
 # === ML / Data Science artifacts ===
 *.pkl
 *.joblib
 *.h5
 *.onnx
+*.pth
+*.pt
+*.model
+*.pb
+*.sav
 
-# === Datasets ===
+# === Datasets (raw/processed) ===
 *.csv
 *.tsv
 *.xlsx
 *.xls
 *.parquet
 *.feather
+*.json
+*.zip
+*.gz
 
-# === Logs & temp ===
-*.log
-*.pid
-*.tmp
+# === Cache / intermediate outputs ===
+*.npy
+*.npz
+*.pickle
+*.dta
+*.rda
+*.mat
+__MACOSX/
 
-# === Jupyter Notebook checkpoints ===
-.ipynb_checkpoints/
-.ipynb
+# === Reports / figures ===
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
 
-# === FastAPI/Uvicorn reload cache ===
+# === FastAPI/Uvicorn reload cache / SQLite ===
 *.db
+*.sqlite3
+
+# === Docker ===
+*.pid
+*.sock
+*.pid.lock
+
+# === Misc ===
+*.tar
+*.tar.gz
+*.egg-info/
