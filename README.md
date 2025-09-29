@@ -76,7 +76,7 @@ Temuan ini menjadikan dugaan bahwa pelanggan dengan kontrak jangka panjang lebih
 - selanjutnya imbalance data dilakukan dengan metode oversampling menggunakan SMOTE.
 
 ### Modeling & Evaluation
-- Model yang digunakan adalah Random Forest & XGBoost
+- Model yang digunakan adalah Random Forest, XGBoost, dan SVM
 - Diberlakukan tuning parameter menggunakan GridSearchCV untuk ketiga model algoritma.
 - Best parameter yang didapat setelah melakukan tuning sebagai berikut:
   - Random Forest (max_depth:10 dan n_estimators:50) dengan best score 100%
