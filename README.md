@@ -11,6 +11,8 @@ Customer churn, atau berhentinya pelanggan dari layanan berlangganan, merupakan 
 Dataset yang digunakan dalam proyek ini berasal dari Kaggle:
 
 🔗 [Telecom Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis) 
+Jumlah Baris : 1000 records
+Jumlah Fitur : 10
 
 Dataset ini berisi informasi pelanggan seperti:
 - Data demografi (gender dan usia).
