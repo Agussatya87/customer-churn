@@ -72,12 +72,12 @@ Berdasarkan hasil analisis menggunakan Cramér’s V, diperoleh nilai sebesar 0,
 - Sebaliknya, pelanggan dengan kontrak One-Year (71 bertahan, 218 churn) dan Two-Year (46 bertahan, 154 churn) cenderung lebih stabil dibandingkan kontrak bulanan.
 Temuan ini menjadikan dugaan bahwa pelanggan dengan kontrak jangka panjang lebih loyal dan memiliki kemungkinan churn yang lebih rendah, sedangkan pelanggan kontrak bulanan lebih fleksibel sehingga lebih mudah untuk berhenti berlangganan. Dengan demikian, ContractType dapat dianggap sebagai salah satu fitur penting dalam memprediksi churn.
 
-### Data Prerpocessing
+### 2. Data Prerpocessing
 - Dataset dilakukan normalisasi agar model lebih memahami data dengan skala
 - kemudian dataset dilakukan split data dengan perbandingan 70:30
 - selanjutnya imbalance data dilakukan dengan metode oversampling menggunakan SMOTE.
 
-### Modeling & Evaluation
+### 3. Modeling & Evaluation
 - Model yang digunakan adalah Random Forest, XGBoost, dan SVM
 - Diberlakukan tuning parameter menggunakan GridSearchCV untuk ketiga model algoritma.
 - Best parameter yang didapat setelah melakukan tuning sebagai berikut:
